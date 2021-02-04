@@ -29,7 +29,7 @@ function jump(){
                 position -= 20;
                 dino.style.bottom = position + 'px';
             }
-         }, 10);
+         }, 20);
         }else {
         //subindo
             position += 20;
@@ -61,7 +61,7 @@ function createCactus() {
             cactusPosition -= 10;
             cactus.style.left = cactusPosition + 'px';
         }
-    }, 30);
+    }, 20);
     setTimeout(createCactus, randomTime);
  }
 
